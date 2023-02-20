@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Xml.Linq;
-
-namespace ContactBook
+﻿namespace ContactBook
 {
     class Program
     {
@@ -143,12 +139,5 @@ namespace ContactBook
         }
     }
 
-    class Contact
-    {
-        public string Name { get; set; }
-        public string Surname { get; set; }
-        public string TelephoneNumber { get; set; }
-        public string EmailAddress { get; set; }
-        public DateTime DateOfBirth { get; set; }
-    }
+
 }
